@@ -1,4 +1,4 @@
-# 🕹️ RAC Games: Nosso Multiverso de Presentes 💖
+# 🕹️ RAC Games: Nosso Multiverso de Games 💖
 
 Bem-vindo ao **RAC Games**! Este repositório funciona como um "Hub Central" (um portal interativo) criado para organizar e centralizar todos os web games desenvolvidos como presente de aniversário de namoro. 
 
