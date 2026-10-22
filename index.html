@@ -80,13 +80,14 @@
 
         /* Delay nas animações para carregar em escadinha */
         .delay-1 { animation-delay: 0.1s; }
-        .delay-2 { animation-delay: 0.3s; }
-        .delay-3 { animation-delay: 0.5s; }
+        .delay-2 { animation-delay: 0.2s; }
+        .delay-3 { animation-delay: 0.3s; }
+        .delay-4 { animation-delay: 0.4s; }
     </style>
 </head>
 <body class="text-white">
 
-    <div class="w-full max-w-4xl mx-auto flex flex-col items-center">
+    <div class="w-full max-w-5xl mx-auto flex flex-col items-center pb-8">
         
         <!-- Cabeçalho do Hub -->
         <header class="text-center mb-12 fade-in">
@@ -95,17 +96,17 @@
                 RAC Games
             </h1>
             <p class="text-lg md:text-xl font-medium text-white/90 bg-black/20 px-6 py-2 rounded-full inline-block backdrop-blur-sm border border-white/10">
-                O nosso próprio multiverso de games! 💖
+                O nosso próprio multiverso de presentes! 💖
             </p>
         </header>
 
-        <!-- Grid de Jogos -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full px-4">
+        <!-- Grid de Jogos Principais (3 colunas no PC) -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 w-full px-4 mb-6">
             
             <!-- GAME 1: RAC Quiz -->
-            <a href="https://rainangramacho.github.io/rac-quizz/" target="_blank" class="game-card glass-card rounded-3xl p-8 flex flex-col items-center text-center fade-in delay-1 cursor-pointer no-underline group">
+            <a href="https://rainangramacho.github.io/rac-quizz/" target="_blank" class="game-card glass-card rounded-3xl p-6 flex flex-col items-center text-center fade-in delay-1 cursor-pointer no-underline group">
                 <div class="text-6xl mb-4 group-hover:scale-110 transition-transform duration-300">🏆</div>
-                <h2 class="text-2xl font-bold text-brand-gold mb-2">RAC Quiz</h2>
+                <h2 class="text-xl font-bold text-brand-gold mb-2">RAC Quiz</h2>
                 <p class="text-white/80 text-sm leading-relaxed flex-grow">
                     15 perguntas super aleatórias. O quão bem você realmente me conhece?
                 </p>
@@ -115,17 +116,17 @@
             </a>
 
             <!-- GAME 2: RAC Wordle -->
-            <a href="https://rainangramacho.github.io/rac-wordle/" target="_blank" class="game-card glass-card rounded-3xl p-8 flex flex-col items-center text-center fade-in delay-2 cursor-pointer no-underline group">
+            <a href="https://rainangramacho.github.io/rac-wordle/" target="_blank" class="game-card glass-card rounded-3xl p-6 flex flex-col items-center text-center fade-in delay-2 cursor-pointer no-underline group">
                 <div class="text-6xl mb-4 group-hover:scale-110 transition-transform duration-300">🔍</div>
-                <h2 class="text-2xl font-bold text-brand-gold mb-2">RAC Wordle</h2>
+                <h2 class="text-xl font-bold text-brand-gold mb-2">RAC Wordle</h2>
                 <p class="text-white/80 text-sm leading-relaxed flex-grow">
-                    Nosso jogo de palavras! Tente adivinhar as palavras secretas usando minhas dicas.
+                    Nosso jogo de palavras! Tente adivinhar as senhas usando minhas dicas.
                 </p>
                 <div class="mt-6 w-full py-2 rounded-full bg-white/10 text-sm font-semibold group-hover:bg-brand-gold group-hover:text-purple-900 transition-colors">
                     JOGAR AGORA
                 </div>
             </a>
-            
+
             <!-- GAME 3: RAC Puzzle -->
             <a href="https://rainangramacho.github.io/rac-puzzle/" target="_blank" class="game-card glass-card rounded-3xl p-6 flex flex-col items-center text-center fade-in delay-3 cursor-pointer no-underline group">
                 <div class="text-6xl mb-4 group-hover:scale-110 transition-transform duration-300">🧩</div>
@@ -138,18 +139,20 @@
                 </div>
             </a>
 
-            <!-- BLOQUEADO: Em Breve -->
-            <div class="glass-card rounded-3xl p-8 flex flex-col items-center text-center fade-in delay-3 opacity-60 border-dashed">
+        </div>
+
+        <!-- BLOQUEADO: Em Breve (Centralizado na parte inferior) -->
+        <div class="w-full px-4 flex justify-center fade-in delay-4">
+            <div class="glass-card rounded-3xl p-6 flex flex-col items-center text-center opacity-60 border-dashed w-full md:w-1/3">
                 <div class="text-6xl mb-4 grayscale">🔒</div>
-                <h2 class="text-2xl font-bold text-gray-300 mb-2">Em breve...</h2>
+                <h2 class="text-xl font-bold text-gray-300 mb-2">Em breve...</h2>
                 <p class="text-white/60 text-sm leading-relaxed flex-grow">
-                    Novos jogos serão desbloqueados nas próximas atualizações do nosso relacionamento!
+                    Novos jogos serão desbloqueados nas próximas atualizações!
                 </p>
                 <div class="mt-6 w-full py-2 rounded-full bg-black/30 text-sm font-semibold text-white/50 cursor-not-allowed">
                     BLOQUEADO
                 </div>
             </div>
-
         </div>
         
     </div>
